@@ -16,4 +16,27 @@ body {
 }
 .nav a {
     margin: 0 15px;
-    text-decoration: none
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.column {
+    width: 30%;
+    background-color: lightgreen;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.column img {
+    width: 100%;
+    height: auto;
+}
+.column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
