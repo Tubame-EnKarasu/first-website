@@ -3,53 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Quiz Game</h1>
+
+    <div class="header">Masayuki</div>
+
+    <div class="navbar">
+        <a href="#index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="game.html">GAME</a>
     </div>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="game.html">Game</a>
-    </div>
-    <div class="content">
-        <div class="column">
-            <h2>Useful Links</h2>
-            <ul>
-                <li><a href="https://link1.com" target="_blank">Link1</a></li>
-                <li><a href="https://link2.com" target="_blank">Link2</a></li>
-                <li><a href="https://link3.com" target="_blank">Link3</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h2>Quiz Game</h2>
-            <form id="quizForm">
-                <label for="username">Enter your name:</label><br>
-                <input type="text" id="username" name="username" required><br>
-                <div id="questions">
-                    <!-- Questions will be added here by JavaScript -->
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-        <div class="column">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
-            </form>
-        </div>
+
+    <div class="container">
+        <h2>Quiz Game</h2>
+        <form>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name">
+            <ol class="quiz">
+                <li>
+                    <p>1. Which city is the captical of Canada?</p>
+                    <input type="radio" id="Toronto" name="q1" value="Toronto">
+                    <label for="Toronto">Toronto</label><br>
+                    <input type="radio" id="Vancouver" name="q1" value="Vanocuver">
+                    <label for="Vancouver">Vancouver</label><br>
+                    <input type="radio" id="Ottawa" name="q1" value="Ottawa">
+                    <label for="Ottawa">Ottawa</label><br>
+                    <input type="radio" id="Abbotsford" name="q1" value="Abbotsford">
+                    <label for="Abbotsford">Abbotsford</label>
+                </li>
+                <li>
+                    <p>2. What is 5 + 5?</p>
+                    <input type="radio" id="7" name="q2" value="7">
+                    <label for="7">7</label><br>
+                    <input type="radio" id="8" name="q2" value="8">
+                    <label for="8">8</label><br>
+                    <input type="radio" id="9" name="q2" value="9">
+                    <label for="9">9</label><br>
+                    <input type="radio" id="10" name="q2" value="10">
+                    <label for="10">10</label>
+                </li>
+                <li>
+                    <p>3. Who is the author of the "The Makioka Sisters"</p>
+                    <input type="radio" id="Soseki" name="q3" value="Natsume Sōseki">
+                    <label for="Soseki">Natsume Sōseki</label><br>
+                    <input type="radio" id="Tanizaki" name="q3" value="Tanizaki Jun'ichirō">
+                    <label for="Tanizaki">Tanizaki Jun'ichirō</label><br>
+                    <input type="radio" id="Dazai" name="q3" value="Osamu Dazai">
+                    <label for="Dazai">Osamu Dazai</label><br>
+                    <input type="radio" id="Akutagawa" name="q3" value="Ryūnosuke Akutagawa">
+                    <label for="Akutagawa">Ryūnosuke Akutagawa</label>
+                </li>
+                <li>
+                    <p>4. What is 1 + 1?</p>
+                    <input type="radio" id="0" name="q4" value="0">
+                    <label for="0">0</label><br>
+                    <input type="radio" id="1" name="q4" value="1">
+                    <label for="1">1</label><br>
+                    <input type="radio" id="2" name="q4" value="2">
+                    <label for="2">2</label><br>
+                    <input type="radio" id="3" name="q4" value="3">
+                    <label for="3">3</label>
+                </li>
+                <li>
+                    <p>5. Who won the rugby world cup 2023 </p>
+                    <input type="radio" id="France" name="q5" value="France">
+                    <label for="France">France</label><br>
+                    <input type="radio" id="Ireland" name="q5" value="Ireland">
+                    <label for="Ireland">Ireland</label><br>
+                    <input type="radio" id="South" name="q5" value="South Africa">
+                    <label for="South">South Africa</label><br>
+                    <input type="radio" id="New" name="q5" value="New Zealand">
+                    <label for="New">New Zealand</label>
+                </li>
+            </ol>
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div class="footer">
-        <p>Created on: July 2024</p>
-        <a href="https://yourblog.com" target="_
+        FOOTER
+    </div>
+</body>
+</html>
