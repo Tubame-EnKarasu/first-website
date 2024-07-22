@@ -23,7 +23,7 @@ body {
     color: black;
     font-weight: bold;
 }
-.container {
+.quiz-container {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
