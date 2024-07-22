@@ -7,8 +7,21 @@ body {
 .header {
     background-color: purple;
     color: white;
+    text-align: right;
+    padding: 20px;
+}
+
+.nav {
+    background-color: lightblue;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .content {
@@ -45,8 +58,13 @@ td img {
     background-color: purple;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
 }
