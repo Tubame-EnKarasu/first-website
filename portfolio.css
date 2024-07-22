@@ -61,9 +61,9 @@ td img {
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
 }
 
 .footer a {
