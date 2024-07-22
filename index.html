@@ -7,45 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="header">
         <h1>My Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="game.html">Game</a></li>
-        </ul>
-    </nav>
-    <div class="sidebar">
-        <h2>Useful Links</h2>
-        <ul>
-            <li><a href="https://link1.com" target="_blank">Link1</a></li>
-            <li><a href="https://link2.com" target="_blank">Link2</a></li>
-            <li><a href="https://link3.com" target="_blank">Link3</a></li>
-        </ul>
+    </div>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="game.html">Game</a>
     </div>
     <div class="content">
-        <h2>About Me</h2>
-        <p>Hello! I am a web developer with a passion for creating engaging and user-friendly websites. I have experience in HTML, CSS, and JavaScript, and enjoy learning new technologies to improve my skills.</p>
-        <img src="my_photo.jpg" alt="My Photo">
+        <div class="column">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://link1.com" target="_blank">Link1</a></li>
+                <li><a href="https://link2.com" target="_blank">Link2</a></li>
+                <li><a href="https://link3.com" target="_blank">Link3</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>About Me</h2>
+            <p>Hello! I am a web developer with a passion for creating engaging and user-friendly websites. I have experience in HTML, CSS, and JavaScript, and enjoy learning new technologies to improve my skills.</p>
+            <img src="my_photo.jpg" alt="My Photo">
+        </div>
+        <div class="column">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </div>
     </div>
-    <div class="sidebar right">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br>
-            <button type="submit">Submit</button>
-            <button type="reset">Clear</button>
-        </form>
-    </div>
-    <footer>
+    <div class="footer">
         <p>Created on: July 2024</p>
-        <a href="https://yourblog.com" target="_blank">Blog</a> | <a href="https://yoursocialmedia.com" target="_blank">Social Media</a>
-    </footer>
+        <a href="https://yourblog.com" target="_blank" style="color: white;">Blog</a> | 
+        <a href="https://yoursocialmedia.com" target="_blank" style="color: white;">Social Media</a>
+    </div>
 </body>
 </html>
