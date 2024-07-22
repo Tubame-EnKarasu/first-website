@@ -13,19 +13,16 @@ body {
 }
 
 .nav {
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    padding: 10px;
-}
-
-.nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
+    background-color: lightblue;
     text-align: center;
+    padding: 10px 0;
 }
-
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .container {
     max-width: 600px;
     margin: 20px auto;
