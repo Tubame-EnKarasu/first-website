@@ -4,11 +4,11 @@ body {
     padding: 0;
 }
 
-.header {
+.header, .footer {
     background-color: purple;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px 0;
 }
 
 .nav {
@@ -54,16 +54,6 @@ th {
 td img {
     width: 100px;
     height: auto;
-}
-
-.footer {
-    background-color: purple;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
 }
 
 .footer a {
