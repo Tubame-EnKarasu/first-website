@@ -3,72 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <div class="header">
         <h1>My Portfolio</h1>
     </div>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="game.html">Game</a>
-    </div>
     <div class="content">
-        <div class="column">
-            <h2>Useful Links</h2>
-            <ul>
-                <li><a href="https://link1.com" target="_blank">Link1</a></li>
-                <li><a href="https://link2.com" target="_blank">Link2</a></li>
-                <li><a href="https://link3.com" target="_blank">Link3</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h2>My Portfolio</h2>
-            <table>
+        <table>
+            <thead>
                 <tr>
                     <th>Number</th>
                     <th>Name</th>
                     <th>Description</th>
                     <th>Date</th>
                     <th>Location</th>
+                    <th>Image</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>1</td>
-                    <td>Project A</td>
-                    <td>Description of Project A</td>
-                    <td>2022</td>
-                    <td>Location A</td>
+                    <td>Winning a prize in the 5th Junior and Senior High School Informatics Research Contest</td>
+                    <td>Won a prize in the contest sponsored by the Information Processing Society of Japan (IPSJ)</td>
+                    <td>March 2023</td>
+                    <td>The University of Electro-Communications, Tokyo</td>
+                    <td><img src="certificate1.png" alt="Certificate 1"></td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Project B</td>
-                    <td>Description of Project B</td>
-                    <td>2021</td>
-                    <td>Location B</td>
+                    <td>Passed IT passport exam</td>
+                    <td>Passed the national qualification "IT Passport"</td>
+                    <td>August 2022</td>
+                    <td>Osaka</td>
+                    <td><img src="certificate2.png" alt="Certificate 2"></td>
                 </tr>
-                <!-- Add more portfolio items here -->
-            </table>
-        </div>
-        <div class="column">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
-            </form>
-        </div>
+                <tr>
+                    <td>3</td>
+                    <td>Got 710 points on the TOEIC</td>
+                    <td>I was able to get my highest score</td>
+                    <td>March 2024</td>
+                    <td>Osaka</td>
+                    <td><img src="certificate3.png" alt="Certificate 3"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Won a track and field tournament</td>
+                    <td>Won the 400m at the Osaka Prefecture Championships</td>
+                    <td>July 2021</td>
+                    <td>Osaka</td>
+                    <td><img src="tournament.png" alt="Tournament"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Made my own Web Site</td>
+                    <td>To show my own achievements, I made my own Web Site</td>
+                    <td>January 2024</td>
+                    <td>Hugo, Netlify</td>
+                    <td><img src="website.png" alt="Website"></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <div class="footer">
-        <p>Created on: July 2024</p>
-        <a href="https://yourblog.com" target="_blank" style="color: white;">Blog</a> | 
-        <a href="https://yoursocialmedia.com" target="_blank" style="color: white;">Social Media</a>
+        <p>FOOTER</p>
     </div>
 </body>
 </html>
